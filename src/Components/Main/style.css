@@ -1,0 +1,35 @@
+.header {
+  background-color: tomato !important;
+}
+
+.header-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.content {
+  width: 80%;
+  height: fit-content;
+  margin: 2em auto 0;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.list-of-cities {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 3%;
+}
+
+.city-name {
+  text-align: center;
+}
